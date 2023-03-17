@@ -8,9 +8,9 @@ namespace HomeWork_OOP
 {
  public class Phone : Laptop
     {
-        public override void TurnON_OS()
+        public override void TurnONOperatingSystem()
         {
-            Console.WriteLine("Starting to work OS - IOS"); 
+            Console.WriteLine("Starting to work IOS system"); 
         }
 
         public override void Sum(int a, int b)
@@ -21,11 +21,11 @@ namespace HomeWork_OOP
 
         public Phone()
         {
-            name = "Iphone";
-            date_realise = 2015;
+            Name = "Iphone";
+            dateRealise = 2015;
         }
 
-        public  float Math_Operations(float a, float b, float c, int d)
+        public  float MathOperations(float a, float b, float c, int d)
         {
             return (a - b + c) * d ;
         }
